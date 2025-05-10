@@ -15,7 +15,6 @@ namespace TeslaCommand
     public class TeslaArgument : ICommand
     {
         public teslaproperties.TeslaProperties tesla = new TeslaProperties();
-
         public teslaproperties.TeslaProperties properties = new teslaproperties.TeslaProperties();
         public string Command => "tesla";
         public string[] Aliases => new[] { "tsl", "" };
